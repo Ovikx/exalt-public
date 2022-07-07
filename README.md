@@ -1,2 +1,2 @@
 ## Welcome to Exalt's public repo!
-Use the [issues section](https://github.com/Ovikx/exalt-public/issues) to post bugs and suggestions. Tag your posts appropriately. If you need private help, DM me on Discord at `TI-Nspire CX II CAS#2378`.
+Post bugs and suggestions by [creating an issue](https://github.com/Ovikx/exalt-public/issues/new). Tag your posts with the appropriate labels. If you need private help, DM me on Discord at `TI-Nspire CX II CAS#2378`.
