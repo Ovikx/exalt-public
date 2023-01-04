@@ -3,4 +3,4 @@ Post bugs and suggestions by [creating an issue](https://github.com/Ovikx/exalt-
 
 ## Resources
 - [Project board](https://github.com/users/Ovikx/projects/2)
-- [Moves data](https://github.com/Ovikx/exalt-public/blob/master/resources/moves.json)
+- [Game files](https://github.com/Ovikx/exalt-public/blob/master/resources)
