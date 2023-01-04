@@ -1,0 +1,26 @@
+{
+    "WEAPON_1": [
+        "Laser Sword",
+        "Excalibur",
+        "Kris",
+        "Breadstick",
+        "Dual Daggers"
+    ],
+
+    "WEAPON_2": [
+        "Aegis",
+        "Holo-Shield",
+        "1970s Vinyl",
+        "Citadel",
+        "Spiralfan"
+    ],
+
+    "WEAPON_3": [
+        "Cannon",
+        "Mortar",
+        "Railgun",
+        "Warp Gun",
+        "RPG",
+        "Decimator"
+    ]
+}

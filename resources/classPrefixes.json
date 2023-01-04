@@ -1,0 +1,77 @@
+{
+    "X": [
+        "\"Challenger's\""
+    ],
+    "S": [
+        "Overcharged",
+        "Exalted",
+        "Supreme",
+        "Vampiric",
+        "Galvanic",
+        "Gauss",
+        "Gilded",
+        "Regal",
+        "Hexed",
+        "Crystal",
+        "Imperial",
+        "Azure",
+        "Ivory",
+        "Hellish",
+        "Tarnished",
+        "Contraband",
+        "Lucent",
+        "Ceremonial",
+        "Frigid",
+        "Volcanic"
+    ],
+
+    "A": [
+        "Elite",
+        "Precise",
+        "Refined",
+        "Gleaming",
+        "Sparkling",
+        "Evil",
+        "Radiant",
+        "Mighty",
+        "Modern"
+    ],
+
+    "B": [
+        "Iron",
+        "Welded",
+        "Durable",
+        "Robust",
+        "Handy",
+        "Scary",
+        "Nimble",
+        "Flashy",
+        "Jagged",
+        "Reflective",
+        "Shiny",
+        "Large",
+        "Expensive"
+
+    ],
+
+    "C": [
+        "Rusty",
+        "Ragged",
+        "Dull",
+        "Normal",
+        "Regular",
+        "Common",
+        "Rough",
+        "Wooden",
+        "Simple",
+        "Makeshift",
+        "Traditional",
+        "Ordinary",
+        "Old",
+        "Classic",
+        "Vintage",
+        "Gray",
+        "Stone",
+        "Rock"
+    ]
+}

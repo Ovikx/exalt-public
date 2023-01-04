@@ -1,0 +1,33 @@
+{
+    "WEAPON_1": [
+        "Sword",
+        "Blade",
+        "Longsword",
+        "Dagger",
+        "Foil",
+        "Epee",
+        "Sabre",
+        "Machete",
+        "Katana"
+    ],
+
+    "WEAPON_2": [
+        "Shield",
+        "Riot Shield",
+        "Targe",
+        "Buckler",
+        "Kite",
+        "Guard"
+    ],
+
+    "WEAPON_3": [
+        "Gun",
+        "Rifle",
+        "Pistol",
+        "Shooter",
+        "Handgun",
+        "Shotgun",
+        "Revolver",
+        "Musket"
+    ]
+}
