@@ -1,0 +1,690 @@
+{
+    "weapon": {
+        "WEAPON_1": {
+            "MOVE_1": {
+                "type": "move",
+                "name": "Overhead Slash",
+                "description": "Strike your opponent from above with an overhead swing.",
+                "slotCost": 1,
+                "damages": [50, 30, 26, 22, 20],
+                "damageProps": {
+                    "slash": 0.5,
+                    "blunt": 0.25,
+                    "pierce": 0.25
+                },
+                "energyCosts": [15, 24, 26, 28, 30],
+                "effects": [],
+                "upgrades": {
+                    "UPGRADE_1": {
+                        "name": "Vampiric Slash",
+                        "description": "Imbues life-stealing energy into Overhead Slash.",
+                        "slotCost": 2,
+                        "effects": [
+                            {
+                                "effectId": "EFFECT_5",
+                                "values": [0.4, 0.2, 0.15, 0.1, 0.05]
+                            }
+                        ]
+                    }
+                }
+            },
+            "MOVE_5": {
+                "type": "move",
+                "name": "Poke",
+                "description": "Lightly jab your opponent and get the job done.",
+                "slotCost": 1,
+                "damages": [25, 18, 16, 14, 12],
+                "damageProps": {
+                    "slash": 0.7,
+                    "blunt": 0.15,
+                    "pierce": 0.15
+                },
+                "energyCosts": [5, 10, 14, 16, 18],
+                "effects": [],
+                "upgrades": {}
+            },
+            "MOVE_8": {
+                "type": "move",
+                "name": "Hilt Smash",
+                "description": "Blade not working out for you? Use the hilt.",
+                "slotCost": 1,
+                "damages": [30, 20, 17, 15, 13],
+                "damageProps": {
+                    "slash": 0.15,
+                    "blunt": 0.7,
+                    "pierce": 0.15
+                },
+                "energyCosts": [12, 20, 24, 26, 28],
+                "effects": [],
+                "upgrades": {}
+            },
+            "MOVE_11": {
+                "type": "move",
+                "name": "Whirlwind",
+                "description": "Spin around really fast and hope you'll hit your opponent.",
+                "slotCost": 3,
+                "damages": [50, 40, 35, 33, 30],
+                "damageProps": {
+                    "slash": 0.6,
+                    "blunt": 0.1,
+                    "pierce": 0.3
+                },
+                "energyCosts": [40, 50, 55, 57, 60],
+                "effects": [],
+                "upgrades": {
+                    "UPGRADE_5": {
+                        "name": "Searing Wind",
+                        "description": "Add a heated touch to your blade. Applies a Burn effect to Whirlwind.",
+                        "slotCost": 2,
+                        "effects": [
+                            {
+                                "effectId": "EFFECT_10",
+                                "values": [10, 4, 3, 2, 1]
+                            }
+                        ]
+                    }
+                }
+            },
+            "MOVE_17": {
+                "type": "move",
+                "name": "Takedown",
+                "description": "Rush your opponent and impale them with your blade.",
+                "slotCost": 3,
+                "damages": [45, 35, 33, 31, 29],
+                "damageProps": {
+                    "slash": 0.2,
+                    "blunt": 0.4,
+                    "pierce": 0.4
+                },
+                "energyCosts": [50, 60, 65, 67, 70],
+                "effects": [],
+                "upgrades": {
+                    "UPGRADE_7": {
+                        "name": "Deadly Pin",
+                        "description": "Makes Takedown drain some of the target's energy.",
+                        "slotCost": 2,
+                        "effects": [
+                            {
+                                "effectId": "EFFECT_15",
+                                "values": [75, 65, 55, 45, 35]
+                            }
+                        ]
+                    }
+                }
+            },
+            "MOVE_18": {
+                "type": "move",
+                "name": "Duelist's Rite",
+                "description": "An honorable ritual that increases the damage of both combatants.",
+                "slotCost": 3,
+                "damages": [0, 0, 0, 0, 0],
+                "damageProps": {
+                    "slash": 1,
+                    "blunt": 1,
+                    "pierce": 1
+                },
+                "energyCosts": [25, 35, 40, 45, 50],
+                "effects": [
+                    {
+                        "effectId": "EFFECT_16",
+                        "values": [1.35, 1.25, 1.2, 1.15, 1.12]
+                    }
+                ],
+                "upgrades": {}
+            }
+        },
+    
+        "WEAPON_2": {
+            "MOVE_2": {
+                "type": "move",
+                "name": "Shield Bash",
+                "description": "Face, meet shield.",
+                "slotCost": 1,
+                "damages": [40, 30, 26, 22, 20],
+                "damageProps": {
+                    "slash": 0.25,
+                    "blunt": 0.5,
+                    "pierce": 0.25
+                },
+                "energyCosts": [18, 24, 26, 28, 30],
+                "effects": [],
+                "upgrades": {
+                    "UPGRADE_2": {
+                        "name": "Vampiric Bash",
+                        "description": "Imbues life-stealing energy into Shield Bash.",
+                        "slotCost": 2,
+                        "effects": [
+                            {
+                                "effectId": "EFFECT_5",
+                                "values": [0.4, 0.2, 0.15, 0.1, 0.05]
+                            }
+                        ]
+                    }
+                }
+            },
+            "MOVE_6": {
+                "type": "move",
+                "name": "Armored Uppercut",
+                "description": "A real chin-crusher.",
+                "slotCost": 2,
+                "damages": [45, 35, 30, 28, 26],
+                "damageProps": {
+                    "slash": 0.2,
+                    "blunt": 0.6,
+                    "pierce": 0.2
+                },
+                "energyCosts": [20, 30, 35, 40, 45],
+                "effects": [],
+                "upgrades": {}
+            },
+            "MOVE_9": {
+                "type": "move",
+                "name": "Fortify",
+                "description": "Increases your armor's defense.",
+                "slotCost": 1,
+                "damages": [0,0,0,0,0],
+                "damageProps": {
+                    "slash": 1,
+                    "blunt": 1,
+                    "pierce": 1
+                },
+                "energyCosts": [30, 40, 45, 47, 49],
+                "effects": [
+                    {
+                        "effectId": "EFFECT_3",
+                        "values": [1.3, 1.2, 1.15, 1.13, 1.11]
+                    }
+                ],
+                "upgrades": {}
+            },
+            "MOVE_13": {
+                "type": "move",
+                "name": "Shockwave",
+                "description": "Slam your shield into the ground, producing a powerful staggering shockwave.",
+                "slotCost": 3,
+                "damages": [55,45,40,38,36],
+                "damageProps": {
+                    "slash": 0.1,
+                    "blunt": 0.8,
+                    "pierce": 0.1
+                },
+                "energyCosts": [60, 70, 75, 78, 80],
+                "effects": [
+                    {
+                        "effectId": "EFFECT_9",
+                        "values": [3, 2, 1, 1, 1]
+                    }
+                ],
+                "upgrades": {}
+            },
+            "MOVE_16": {
+                "type": "move",
+                "name": "Rapid Spin",
+                "description": "Spin your shield and cause some slash damage to the opponent.",
+                "slotCost": 2,
+                "damages": [35,25,23,21,19],
+                "damageProps": {
+                    "slash": 0.8,
+                    "blunt": 0.1,
+                    "pierce": 0.1
+                },
+                "energyCosts": [10, 20, 25, 27, 29],
+                "effects": [],
+                "upgrades": {}
+            },
+            "MOVE_19": {
+                "type": "move",
+                "name": "Fortress",
+                "description": "Supercharges your shield and creates an impenetrable barrier around you, protecting you for one turn.",
+                "slotCost": 3,
+                "damages": [0,0,0,0,0],
+                "damageProps": {
+                    "slash": 1,
+                    "blunt": 1,
+                    "pierce": 1
+                },
+                "energyCosts": [20, 30, 35, 40, 45],
+                "effects": [
+                    {
+                        "effectId": "EFFECT_17",
+                        "values": [1, 1, 1, 1, 1]
+                    }
+                ],
+                "upgrades": {}
+            }
+        },
+    
+        "WEAPON_3": {
+            "MOVE_3": {
+                "type": "move",
+                "name": "Burst Fire",
+                "description": "Launch a quick spurt of firepower.",
+                "slotCost": 1,
+                "damages": [40, 30, 26, 22, 20],
+                "damageProps": {
+                    "slash": 0.25,
+                    "blunt": 0.25,
+                    "pierce": 0.5
+                },
+                "energyCosts": [14, 24, 26, 28, 30],
+                "effects": [],
+                "upgrades": {
+                    "UPGRADE_3": {
+                        "name": "Vampiric Barrage",
+                        "description": "Imbues life-stealing energy into Burst Fire.",
+                        "slotCost": 2,
+                        "effects": [
+                            {
+                                "effectId": "EFFECT_5",
+                                "values": [0.4, 0.2, 0.15, 0.1, 0.05]
+                            }
+                        ]
+                    }
+                }
+            },
+            "MOVE_7": {
+                "type": "move",
+                "name": "Sharp Shot",
+                "description": "Snipe the enemy from afar.",
+                "slotCost": 3,
+                "damages": [60, 50, 48, 46, 44],
+                "damageProps": {
+                    "slash": 0.1,
+                    "blunt": 0.1,
+                    "pierce": 0.8
+                },
+                "energyCosts": [70, 80, 85, 87, 90],
+                "effects": [],
+                "upgrades": {}
+            },
+            "MOVE_10": {
+                "type": "move",
+                "name": "Flash Shot",
+                "description": "Fires a blinding blank.",
+                "slotCost": 3,
+                "damages": [0, 0, 0, 0, 0],
+                "damageProps": {
+                    "slash": 1,
+                    "blunt": 1,
+                    "pierce": 1
+                },
+                "energyCosts": [40, 50, 55, 60, 65],
+                "effects": [
+                    {
+                        "effectId": "EFFECT_9",
+                        "values": [4, 3, 2, 2, 2]
+                    }
+                ],
+                "upgrades": {
+                    "UPGRADE_6": {
+                        "name": "Impairing Flash",
+                        "description": "Allows Flash Shot to decrease the target's Defense.",
+                        "slotCost": 1,
+                        "effects": [
+                            {
+                                "effectId": "EFFECT_11",
+                                "values": [0.65, 0.8, 0.85, 0.88, 0.9]
+                            }
+                        ]
+                    }
+                }
+            },
+            "MOVE_12": {
+                "type": "move",
+                "name": "Bayonet Slash",
+                "description": "Use your gun's blade to inflict light damage.",
+                "slotCost": 1,
+                "damages": [30, 20, 17, 15, 13],
+                "damageProps": {
+                    "slash": 0.8,
+                    "blunt": 0.1,
+                    "pierce": 0.1
+                },
+                "energyCosts": [10, 20, 24, 26, 28],
+                "effects": [],
+                "upgrades": {}
+            },
+            "MOVE_14": {
+                "type": "move",
+                "name": "Charged Blast",
+                "description": "Uses high-energy compression to launch a projectile at an absurd velocity. Causes recoil damage.",
+                "slotCost": 3,
+                "damages": [75, 60, 55, 53, 50],
+                "damageProps": {
+                    "slash": 0.1,
+                    "blunt": 0.2,
+                    "pierce": 0.7
+                },
+                "energyCosts": [90, 100, 105, 107, 110],
+                "effects": [
+                    {
+                        "effectId": "EFFECT_13",
+                        "values": [0, 0, 0, 0, 0]
+                    }
+                ],
+                "upgrades": {}
+            }
+        },
+        "WEAPON_4": {
+            "MOVE_100": {
+                "type": "move",
+                "name": "Punch",
+                "description": "Pow pow",
+                "slotCost": 1,
+                "damages": [40, 30, 26, 22, 20],
+                "damageProps": {
+                    "slash": 0.2,
+                    "blunt": 0.6,
+                    "pierce": 0.2
+                },
+                "energyCosts": [20, 24, 26, 28, 30],
+                "effects": [],
+                "upgrades": []
+            },
+            "MOVE_101": {
+                "type": "move",
+                "name": "Body Slam",
+                "description": "Run into your opponent with your entire bodyweight.",
+                "slotCost": 1,
+                "damages": [55, 45, 40, 35, 30],
+                "damageProps": {
+                    "slash": 0.2,
+                    "blunt": 0.6,
+                    "pierce": 0.2
+                },
+                "energyCosts": [35, 45, 49, 53, 55],
+                "effects": [],
+                "upgrades": []
+            },
+            "MOVE_102": {
+                "type": "move",
+                "name": "Scratch",
+                "description": "Claw at your opponent.",
+                "slotCost": 1,
+                "damages": [30,20,17,15,13],
+                "damageProps": {
+                    "slash": 0.5,
+                    "blunt": 0.1,
+                    "pierce": 0.4
+                },
+                "energyCosts": [10,15,19,23,27],
+                "effects": [],
+                "upgrades": []
+            },
+            "MOVE_103": {
+                "type": "move",
+                "name": "Flame Pillars",
+                "description": "Spawns a fiery eruption from under the target.",
+                "slotCost": 1,
+                "damages": [65,50,45,43,41],
+                "damageProps": {
+                    "slash": 0.33,
+                    "blunt": 0.33,
+                    "pierce": 0.33
+                },
+                "energyCosts": [40,50,52,54,56],
+                "effects": [
+                    {
+                        "effectId": "EFFECT_10",
+                        "values": [5, 4, 3, 2, 1]
+                    }
+                ],
+                "upgrades": []
+            },
+            "MOVE_104": {
+                "type": "move",
+                "name": "Chomp",
+                "description": "Bite your opponent really hard.",
+                "slotCost": 1,
+                "damages": [40,30,25,23,21],
+                "damageProps": {
+                    "slash": 0.2,
+                    "blunt": 0.1,
+                    "pierce": 0.7
+                },
+                "energyCosts": [15,20,22,24,26],
+                "effects": [],
+                "upgrades": []
+            },
+            "MOVE_105": {
+                "type": "move",
+                "name": "Napalm Bomb",
+                "description": "HOT HOT HOT HOT!",
+                "slotCost": 1,
+                "damages": [40,30,25,23,21],
+                "damageProps": {
+                    "slash": 0.33,
+                    "blunt": 0.33,
+                    "pierce": 0.33
+                },
+                "energyCosts": [30,40,42,44,46],
+                "effects": [
+                    {
+                        "effectId": "EFFECT_10",
+                        "values": [5, 4, 3, 2, 1]
+                    }
+                ],
+                "upgrades": []
+            },
+            "MOVE_106": {
+                "type": "move",
+                "name": "Acid Throw",
+                "description": "Launch singeing acid at your opponent. Decreases the target's defense.",
+                "slotCost": 1,
+                "damages": [40,30,25,23,21],
+                "damageProps": {
+                    "slash": 0.45,
+                    "blunt": 0.05,
+                    "pierce": 0.5
+                },
+                "energyCosts": [30,40,45,47,50],
+                "effects": [
+                    {
+                        "effectId": "EFFECT_11",
+                        "values": [0.5, 0.75, 0.8, 0.82, 0.85]
+                    }
+                ],
+                "upgrades": []
+            },
+            "MOVE_107": {
+                "type": "move",
+                "name": "Arrow Barrage",
+                "description": "Bombard the target with a volley of high-velocity arrows.",
+                "slotCost": 1,
+                "damages": [55,45,43,41,39],
+                "damageProps": {
+                    "slash": 0.1,
+                    "blunt": 0.1,
+                    "pierce": 0.8
+                },
+                "energyCosts": [40,50,55,57,60],
+                "effects": [],
+                "upgrades": []
+            },
+            "MOVE_108": {
+                "type": "move",
+                "name": "Jetstream",
+                "description": "Ever stood in front of a 90,000 PSI water stream?",
+                "slotCost": 1,
+                "damages": [50,40,38,36,34],
+                "damageProps": {
+                    "slash": 0.2,
+                    "blunt": 0.3,
+                    "pierce": 0.5
+                },
+                "energyCosts": [25,35,40,42,44],
+                "effects": [
+                    {
+                        "effectId": "EFFECT_12",
+                        "values": [0.7, 0.8, 0.85, 0.87, 0.9]
+                    }
+                ],
+                "upgrades": []
+            },
+            "MOVE_109": {
+                "type": "move",
+                "name": "Whip Crack",
+                "description": "Ear-deafening and skin-lacerating. Stuns for 1 turn.",
+                "slotCost": 1,
+                "damages": [50,40,38,46,34],
+                "damageProps": {
+                    "slash": 0.2,
+                    "blunt": 0.3,
+                    "pierce": 0.5
+                },
+                "energyCosts": [30,40,45,47,50],
+                "effects": [
+                    {
+                        "effectId": "EFFECT_9",
+                        "values": [1,1,1,1,1]
+                    }
+                ],
+                "upgrades": []
+            },
+            "MOVE_110": {
+                "type": "move",
+                "name": "Extreme Flux",
+                "description": "Increases the user's internal electric potential to extreme voltages, creating a stunning aura. Stuns for 2 turns.",
+                "slotCost": 1,
+                "damages": [40,30,27,25,23],
+                "damageProps": {
+                    "slash": 0.2,
+                    "blunt": 0.6,
+                    "pierce": 0.2
+                },
+                "energyCosts": [65,75,77,79,80],
+                "effects": [
+                    {
+                        "effectId": "EFFECT_9",
+                        "values": [2,2,2,2,2]
+                    }
+                ],
+                "upgrades": []
+            },
+            "MOVE_111": {
+                "type": "move",
+                "name": "Cigar Toss",
+                "description": "[DISCLAIMER: SMOKING IS BAD, DON'T DO IT!] Chuck a freshly used cigar at the opponent, burning them for a really long time.",
+                "slotCost": 1,
+                "damages": [25,15,13,11,9],
+                "damageProps": {
+                    "slash": 0.2,
+                    "blunt": 0.6,
+                    "pierce": 0.2
+                },
+                "energyCosts": [40,50,52,54,56],
+                "effects": [
+                    {
+                        "effectId": "EFFECT_10",
+                        "values": [10, 10, 10, 10, 10]
+                    }
+                ],
+                "upgrades": []
+            },
+            "MOVE_112": {
+                "type": "move",
+                "name": "Spinny Vinny",
+                "description": "YOU SPIN ME RIGHT 'ROUND BABY RIGHT ROUND",
+                "slotCost": 1,
+                "damages": [70,60,55,53,51],
+                "damageProps": {
+                    "slash": 0.7,
+                    "blunt": 0.1,
+                    "pierce": 0.2
+                },
+                "energyCosts": [40,50,52,54,56],
+                "effects": [],
+                "upgrades": []
+            },
+            "MOVE_113": {
+                "type": "move",
+                "name": "Bottle Chuck",
+                "description": "Look out, a bottle!",
+                "slotCost": 1,
+                "damages": [40,30,25,22,20],
+                "damageProps": {
+                    "slash": 0.4,
+                    "blunt": 0.4,
+                    "pierce": 0.1
+                },
+                "energyCosts": [10,20,25,27,30],
+                "effects": [],
+                "upgrades": []
+            },
+            "MOVE_114": {
+                "type": "move",
+                "name": "Quick Card",
+                "description": "In a blink of an eye, a spade is right in your chest.",
+                "slotCost": 2,
+                "damages": [40,30,25,22,20],
+                "damageProps": {
+                    "slash": 0.4,
+                    "blunt": 0.2,
+                    "pierce": 0.4
+                },
+                "energyCosts": [10,20,25,27,30],
+                "effects": [],
+                "upgrades": []
+            }
+        }
+    },
+    
+    "armor": {
+        "MOVE_4": {
+            "type": "move",
+            "name": "Repair",
+            "description": "Repairs your suit.",
+            "slotCost": 1,
+            "damages": [0,0,0,0,0],
+            "damageProps": {
+                "slash": 0,
+                "blunt": 0,
+                "pierce": 0
+            },
+            "energyCosts": [25, 40, 45, 47, 50],
+            "effects": [
+                {
+                    "effectId": "EFFECT_7",
+                    "values": [60, 50, 45, 40, 35]
+                }
+            ],
+            "upgrades": {
+                "UPGRADE_4": {
+                    "name": "Speed Weld",
+                    "description": "Increases the healing effect of repair.",
+                    "slotCost": 2,
+                    "effects": [
+                        {
+                            "effectId": "EFFECT_6",
+                            "values": [1.35, 1.2, 1.15, 1.13, 1.10]
+                        }
+                    ]
+                }
+            }
+        },
+        "MOVE_15": {
+            "type": "move",
+            "name": "Fire Up",
+            "description": "Get fired up and increase your damage! Oh yeah, you'll be burning for a while.",
+            "slotCost": 3,
+            "damages": [0,0,0,0,0],
+            "damageProps": {
+                "slash": 0,
+                "blunt": 0,
+                "pierce": 0
+            },
+            "energyCosts": [30, 40, 45, 47, 50],
+            "effects": [
+                {
+                    "effectId": "EFFECT_14",
+                    "values": [10, 5, 5, 5, 5]
+                },
+                {
+                    "effectId": "EFFECT_1",
+                    "values": [1.5, 1.3, 1.2, 1.15, 1.1]
+                }
+            ],
+            "upgrades": {}
+        }
+    }
+}
