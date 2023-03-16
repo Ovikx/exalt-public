@@ -1,5 +1,5 @@
 # Terms of Service
-Welcome to the bot! We will refer to ourselves as "Exalt", the owner of the bot. By accessing or using our Discord bot ("Bot"), you agree to be bound by these terms of service ("Terms").
+Welcome to the bot! Exalt ("we" or "us") operates a Discord bot (the "Bot"). By accessing or using the Bot, you agree to be bound by these terms of service ("Terms").
 
 ## User Conduct
 You agree to use the Bot only for lawful purposes and in accordance with these Terms. You agree not to use the Bot:
