@@ -13,7 +13,7 @@ You agree to use the Bot only for lawful purposes and in accordance with these T
 
 5. In any manner that could disable, overburden, damage, or impair the Bot or interfere with any other party's use of the Bot, including their ability to engage in real-time activities through the Bot.
 
-6. In any manner that yields an unfair advantage over other players, including, but not limited to, macros and exploiting bugs.
+6. In any manner that yields an unfair advantage over other players, including, but not limited to, using macros and exploiting bugs.
 
 ## Intellectual Property Rights
 The Bot and its entire contents, features, and functionality (including but not limited to all information, software, text, displays, images, and the design, and arrangement thereof), are owned by Exalt, its licensors, or other providers of such material and are protected by United States and international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.
